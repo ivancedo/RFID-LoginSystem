@@ -1,0 +1,44 @@
+/* General Fonts */
+* {
+    font-family: monospace;
+}
+
+/* Buttons */
+button#auth_button {
+    border-radius: 12px;
+    padding: 10px 20px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button#logout_button {
+    background-color: #dc3545;
+}
+
+button#query_button {
+    background-color: #ffc107;
+}
+
+/* TextViews */
+textview {
+    border: 1px solid #ccc;
+    padding: 2px;
+    background-color: #f9f9f9;
+}
+
+textview#header {
+    background-color: #2a2a2a;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+textview#row_even {
+    background-color: #d3ecf8;
+}
+
+textview#row_odd {
+    background-color: #4682b4;
+    color: #ffffff;
+}
